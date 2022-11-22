@@ -1,0 +1,35 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+"build":{
+  "publish":[
+    {
+      "provider":"github",
+      "owner":"vansiva",
+      "repo":"electron"
+    }
+  ]
+},
+
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^21.2.3"
+  },
+  "dependencies": {
+    "electron-builder": "^23.6.0",
+    "electron-log": "^4.4.8"
+  }
+}
